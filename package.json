@@ -12,6 +12,9 @@
     "start": "node app.js",
     "test": "ng test"
   },
+  "engines": {
+    "node": "v12.16.1"
+  },
   "devDependencies": {
     "parcel-bundler": "^1.12.4"
   },
