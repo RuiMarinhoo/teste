@@ -15,8 +15,9 @@ router.get('/',function(req,res){
 //add the router
 app.use(express.static(__dirname));
 app.use('/', router);
-const port = process.env.port || 3000;
-const hostname = '127.0.0.1';
-app.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
-});
+app.listen(process.env.PORT || 8080);
+// const port = process.env.port || 3000;
+// const hostname = '127.0.0.1';
+// app.listen(port, hostname, () => {
+//   console.log(`Server running at http://${hostname}:${port}/`);
+// });
