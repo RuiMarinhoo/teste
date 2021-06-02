@@ -6,6 +6,8 @@
   "license": "",
   "author": "",
   "scripts": {
+    "heroku-postbuild": "ng build --prod",
+    "ng": "ng",
     "build": "ng build",
     "start": "node app.js",
     "test": "ng test"
